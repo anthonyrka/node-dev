@@ -16,7 +16,5 @@ RUN set -xe \
         && git clone https://github.com/sheerun/vim-polyglot ~/.vim/pack/vendor/start/vim-polyglot
 
 COPY test.vimrc /root/.vimrc
-COPY simple.js /root/simple.js
-COPY example.js /root/example.js
 
 WORKDIR /root
